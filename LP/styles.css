@@ -1,0 +1,356 @@
+*{
+    margin: 0;
+    padding: 0;
+    font-family: 'Roboto', sans-serif;
+}
+
+header{
+    background-color: black;
+    color: white;
+
+    height: 150px;
+    font-size: 26px;
+
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+}
+
+.navegacao{
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+    gap: 100px;
+    padding-right: 65px;
+}
+
+a{
+    text-decoration: none;
+    color: white;
+}
+
+.logo{
+    width: 250px;
+    height: 250px;
+}
+
+/* Login */
+.Userimg{
+    border-radius: 100%;
+    width: 50px; 
+    height: 50px;
+    cursor: pointer;
+}
+
+#LoginContainer{
+    display: none;
+    position: fixed;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    background: linear-gradient(to top, #1a46b4,#31a5ac 50%);
+    border: 1px solid #ddd;
+    color: white;
+    padding: 50px;
+    border-radius: 10px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+    z-index: 1000;
+}
+
+.escondido{
+    display: none;
+}
+
+#FormLogin h2{
+    margin-top: 0;
+    margin-bottom: 20px;
+}
+
+#FormLogin label{
+    display: block;
+    margin: 10px 0 5px;
+}
+
+#FormLogin input{
+    width: 100%;
+    padding: 8px;
+    margin-bottom: 10px;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+}
+
+.btnLogin{
+    padding: 10px 20px;
+    background-color: #0578FF;
+    color: white;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    margin-top: 10px;
+}
+
+.btnLogin2[type="button"] {
+    padding: 10px 20px;
+    color: white;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    background-color: #0B396F;
+    margin-left: 10px;
+    margin-top: 10px;
+}
+
+.btnUser{
+    border-radius: 50%;
+    width: 55px;
+    cursor: pointer;
+}
+
+.UserIMG{
+    border-radius: 100%;
+    width: 49px; 
+    height: 49px;
+    margin-right: 30px;
+}
+
+/*seção1*/
+
+.secao1{
+    background: linear-gradient(to top,#0a0122 ,#143896 100%);
+    height: 500px;
+    padding-top: 100px;
+    display: flex;
+    justify-content: space-around;
+}
+
+.container{
+    margin-left: 58px;
+    margin-right: 58px;
+    padding: 10px;
+    width: 329px;
+    height: 352px;
+    box-shadow: 1px 0 5px black;
+    background: linear-gradient(to top, #1a46b4,#31a5ac 50%);
+    color: white;
+    border: 1px solid #40D9E2;
+    border-radius: 50px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    gap: 20px;
+}
+
+.apostas{
+    background-color: #143896;
+    color: white;
+    padding: 15px 15px;
+    border-radius: 15px;
+    font-size: 14px;
+    border: 1px solid #143896;
+    cursor: pointer;
+
+    width: 264px;
+    height: 50px;
+}
+
+.apostasMais{
+    background-color: #143896;
+    color: white;
+    padding: 10px;
+    border-radius: 100px;
+    font-size: 25px;
+    width: 50px;
+    height: 50px;
+    border: 1px solid #143896;
+    cursor: pointer;
+}
+
+.descricao{
+    font-size: 20px;
+}
+
+/*seção2*/
+
+.secao2{
+    background: linear-gradient(to top,#143896 , #000000 100%);
+    color: white;
+    padding-top: 50px;
+    display: flex;
+    padding-bottom: 120px;
+    gap: 500px;
+}
+
+.container2{
+    width: 300px;
+    height: 500px;
+    font-size: 20px;
+    margin-left: 58px;
+}
+
+.SaibaMais{
+    background-color: #486ac0;
+    color: white;
+    padding: 16px;
+    border-radius: 10px;
+    font-size: 20px;
+    width: 180px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    height: 50px;
+    border: 1px solid #143896;
+    cursor: pointer;
+}
+
+.grafico{
+    height: 200px;
+    width: 200px;
+    border-radius: 50px;
+}
+
+/* Simulador */
+
+.containerSimulador{
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  background-color: #f0f0f0;
+  color: black;
+}
+
+#canvas {
+  border: 1px solid black;
+}
+
+#contadores {
+  margin-top: 20px;
+  margin-bottom: 20px;
+  text-align: center;
+}
+
+
+/*seção3*/
+
+
+.secao3{
+    display: flex;
+    justify-content: center;
+    height: 600px;
+    background: linear-gradient(to top,#143896 , #0a0122 100%);
+    color: white;
+    padding-top: 50px;
+}
+
+
+.container3{
+    text-align: center;
+    font-size: 20px;
+}
+
+.sobre {
+    margin: 10px;
+    padding: 10px 20px;
+    background-color: #143896;
+    color: white;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+}
+
+
+/* Modal */
+.modal {
+    display: none;
+    position: fixed;
+    z-index: 1;
+    left: 0;
+    top: 0;
+    width: 100%;
+    height: 100%;
+    overflow: auto;
+    background-color: rgb(0,0,0);
+    background-color: rgba(0,0,0,0.4);
+    padding-top: 60px;
+}
+
+.modal-content {
+    background: linear-gradient(to top, #1a46b4,#31a5ac 50%);
+    color: white;
+    margin: 10% auto;
+    padding: 30px;
+    border: 1px solid #888;
+    width: 80%;
+    max-width: 500px;
+    border-radius: 10px;
+    font-size: 20px;
+}
+
+.closeBtn {
+    color: black;
+    float: right;       
+    font-size: 28px;
+    font-weight: bold;
+}
+
+.closeBtn:hover,
+.closeBtn:focus {
+    color: black;
+    text-decoration: none;
+    cursor: pointer;
+}
+
+
+/* carrossel */
+
+.carrossel {
+    display: flex;
+    width: 100%;
+    min-height: 50vh;
+    align-items: center;
+    justify-content: center;
+    gap: 1rem;
+    margin-bottom: 60px;
+}
+
+.container-images {
+    position: relative;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    width: 450px;
+    height: 450px;
+}
+
+
+.slider {
+    opacity: 0;
+    transition: opacity 0.2s;
+    position: absolute;
+    width: 100%;
+    border-radius: 10px;
+}
+
+.on {
+    opacity: 1;
+}
+
+#prev-button,
+#next-button {
+  width: 30px;
+  height: 30px;
+  border: none;
+  background-color: transparent;
+  cursor: pointer;
+}
+
+#prev-button img,
+#next-button img {
+  width: 100%;
+  height: 100%;
+}
+
+#prev-button {
+    transform: rotate(180deg);
+  }

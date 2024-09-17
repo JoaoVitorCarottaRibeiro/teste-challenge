@@ -16,12 +16,6 @@ header{
     justify-content: space-around;
 }
 
-main{
-    background: linear-gradient(to top, #143896, #000000 100%);
-    padding-top: 20px;
-    color: white;
-}
-
 .navegacao{
     display: flex;
     align-items: center;
@@ -119,144 +113,71 @@ a{
     margin-right: 30px;
 }
 
-/* --------------------------- */
-
-.titulo{
-    font-size: 33px;
-    margin-left: 58px;
-    margin-right: 58px;
-    margin-top: 40px;
+.container-sobrefe{
+    background: linear-gradient(to top,#143896 , #000000 100%);
 }
 
-.tituloApostas{
+.w-full {
+    width: 100%;
+    max-width: 800px;
+    padding: 20px;
     display: flex;
-    justify-content: flex-start;
-    align-items: center;
-    gap: 30px;
-    margin-left: 58px;
-    margin-right: 58px;
-}
-
-.IMGtituloApostas{
-    height: 35px;
-    width: 35px;
-}
-
-.legenda{
-    font-size: 25px;
-    font-weight: 400;
-}
-
-.categoria{
-    font-size: 25px;
-    font-weight: 400;
-    display: flex;
-    justify-content: center;
-    align-items: center;
-}
-
-.containerApostas{
-    margin-left: 58px;
-    margin-right: 58px;
-    border-radius: 10px;
-    padding: 25px 25px 25px 25px;
-    height: auto;
-    border: 2px solid black;
-    display: flex;
-    justify-content: space-between;
     flex-direction: column;
-}
-
-.esquerda, .direita{
-    display: flex;
     align-items: center;
-}
-
-.esquerda .item {
-    margin-right: 20px;
-    margin-left: 20px;
-}
-
-.direita .item {
-    margin-right: 20px;
-}
-
-.direita {
-    margin-left: auto;
-}
-
-.f1IMG{
-    height: 20px;
-    width: 20px;
-}
-
-.nomesCorredores{
-    font-size: 18px;
-    font-weight: 400;
-}
-
-.BTNaposta{
-    width: 120px;
-    height: 30px;
-    display: flex;
-    justify-content: center;
-    align-items: center;
-    padding: 16px;
-    font-size: 15px;
-    font-weight: 400;
-    margin-top: 5px;
-    background-color: #486ac0;
+    margin: 0 auto;
     color: white;
-    border-radius: 10px;
-    border: none;
-    cursor: pointer;
+    text-align: center; 
 }
 
-.Star {
-    font-size: 30px;
-    color: #000000;
-    cursor: pointer;
-    transition: color 0.2s;
+
+.sobrefe {
+    text-align: left;
 }
 
-.Star.selected, 
-.Star:hover, 
-.Star:hover ~ .Star {
-    color: #ffca08;
+.sobrefe h2, .sobrefe h3 {
+    color: #98baec;
+    font-weight: bold;
+    margin-bottom: 15px;
 }
 
-.corredores{
-    display: flex;
-    align-items: center;
+.sobrefe p {
+    line-height: 1.6;
+    margin-bottom: 20px;
+    font-size: 16px;
 }
 
-.categoria-2{
-    font-size: 25px;
-    font-weight: 400;
-    display: flex;
-    justify-content: center;
-    align-items: center;
-    margin-top: 20px;
+.sobrefe ul {
+    margin-left: 20px;
     margin-bottom: 20px;
 }
 
-.btn-apostas-ao-vivo{
-    padding: 15px;
-    font-size: 18px;
-    margin-top: 20px;
-    margin-bottom: 35px;
-    background-color: #486ac0;
-    color: white;
-    border-radius: 10px;
-    border: none;
-    cursor: pointer;
+.sobrefe ul li {
+    margin-bottom: 10px;
 }
 
-.botao{
-    display: flex;
-    justify-content: center;
-    align-items: center;
+@media (max-width: 768px) {
+    .navegacao {
+        gap: 30px;
+    }
+
+    .logo {
+        width: 120px;
+    }
+
+    .w-full {
+        padding: 10px;
+    }
+
+    .sobrefe p {
+        font-size: 14px;
+    }
+
+    .sobrefe h2, .sobrefe h3 {
+        font-size: 18px;
+    }
 }
+
+/* ----------------------------------------- */
 
 .footer{
     background-color: #282828;

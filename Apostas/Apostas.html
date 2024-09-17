@@ -6,9 +6,9 @@
     <link rel="preconnect" href="https://fonts.googleapis.com">
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
     <link href="https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,100;0,300;0,400;0,500;0,700;0,900;1,100;1,300;1,400;1,500;1,700;1,900&display=swap" rel="stylesheet">
-    <link rel="stylesheet" href="./AoVivo.css">
-    <script src="AoVivo.js" defer></script>
-    <title>Bettery | Ao Vivo</title>
+    <link rel="stylesheet" href="Apostas.css">
+    <script src="Apostas.js" defer></script>
+    <title>Bettery | Apostas</title>
 </head>
 <body>
     <header>
@@ -35,12 +35,19 @@
         </div>
     </header>
     <main>
-        <h2 class="titulo">Corridas ao Vivo</h2><br><br>
+        <h2 class="titulo">Apostas - Formula E</h2><br><br>
        <div class="tituloApostas">
             <img class="IMGtituloApostas" src="../images/brasil.png" alt="Imagem do lugar da corrida">
-            <p class="legenda" >Corrida 4 - 2024 São Paulo E-PRIX</p>  
+            <p class="legenda" >Round 1 - 2024 São Paulo E-PRIX</p>  
        </div><br>
-       <p class="categoria">Vencedor</p><br>
+        <div class="btn-opcoes">
+            <button class="titulo-opcao">Escolha uma opção de aposta</button>
+            <div class="opcoes">
+                <a href="#">Vencedor</a>
+                <a href="#">Pódio</a>
+                <a href="#">Melhor volta</a>
+            </div>
+        </div>
        <div class="containerApostas">
             <div class="corredores">
                 <div class="esquerda">
@@ -142,16 +149,30 @@
                     <span class="Star item" data-value="1">&#9733;</span>
                 </div>
             </div>
+            <div class="mais-corredores">
+                <button class="btn-mais-corredores">Mais corredores</button>
+            </div>
        </div>
-       <p class="categoria-2">Pódio</p>
-       <div class="containerApostas">
+       <div class="tituloApostas-2">
+        <img class="IMGtituloApostas" src="../images/mexico.png" alt="Imagem do lugar da corrida">
+        <p class="legenda" >Round 2 - 2024 Mexico City E-PRIX</p>  
+        </div><br>
+        <div class="btn-opcoes">
+            <button class="titulo-opcao">Escolha uma opção de aposta</button>
+            <div class="opcoes">
+                <a href="#">Vencedor</a>
+                <a href="#">Pódio</a>
+                <a href="#">Melhor volta</a>
+            </div>
+        </div>
+        <div class="containerApostas">
             <div class="corredores">
                 <div class="esquerda">
                     <img class="f1IMG item" src="../images/formula-1-branco.png" alt="F1IMG">
                     <p class="nomesCorredores item">Pascal Wehrlein</p>
                 </div>
                 <div class="direita">
-                    <button class="BTNaposta item">1.11</button>
+                    <button class="BTNaposta item">1.45</button>
                     <span class="Star item" data-value="1">&#9733;</span>
                 </div>
             </div>
@@ -161,7 +182,7 @@
                     <p class="nomesCorredores item">Mitch Evans</p>
                 </div>
                 <div class="direita">
-                    <button class="BTNaposta item">1.26</button>
+                    <button class="BTNaposta item">1.65</button>
                     <span class="Star item" data-value="1">&#9733;</span>
                 </div>
             </div>
@@ -171,7 +192,7 @@
                     <p class="nomesCorredores item">Nick Cassidy</p>
                 </div>
                 <div class="direita">
-                    <button class="BTNaposta item">1.34</button>
+                    <button class="BTNaposta item">1.71</button>
                     <span class="Star item" data-value="1">&#9733;</span>
                 </div>
             </div>
@@ -181,7 +202,7 @@
                     <p class="nomesCorredores item">Olivier Rowland</p>
                 </div>
                 <div class="direita">
-                    <button class="BTNaposta item">1.65</button>
+                    <button class="BTNaposta item">1.98</button>
                     <span class="Star item" data-value="1">&#9733;</span>
                 </div>
             </div>
@@ -191,7 +212,7 @@
                     <p class="nomesCorredores item">Jean Éric Vergne</p>
                 </div>
                 <div class="direita">
-                    <button class="BTNaposta item">1.97</button>
+                    <button class="BTNaposta item">2.06</button>
                     <span class="Star item" data-value="1">&#9733;</span>
                 </div>
             </div>
@@ -201,7 +222,7 @@
                     <p class="nomesCorredores item">Antônio Félix da Costa</p>
                 </div>
                 <div class="direita">
-                    <button class="BTNaposta item">2.16</button>
+                    <button class="BTNaposta item">2.19</button>
                     <span class="Star item" data-value="1">&#9733;</span>
                 </div>
             </div>
@@ -211,7 +232,7 @@
                     <p class="nomesCorredores item">Jake Dennis</p>
                 </div>
                 <div class="direita">
-                    <button class="BTNaposta item">3.19</button>
+                    <button class="BTNaposta item">2.22</button>
                     <span class="Star item" data-value="1">&#9733;</span>
                 </div>
             </div>
@@ -221,17 +242,17 @@
                     <p class="nomesCorredores item">Maximilian Günther</p>
                 </div>
                 <div class="direita">
-                    <button class="BTNaposta item">4.81</button>
+                    <button class="BTNaposta item">4.09</button>
                     <span class="Star item" data-value="1">&#9733;</span>
                 </div>
             </div>
             <div class="corredores">
-                    <div class="esquerda">
+                <div class="esquerda">
                     <img class="f1IMG item" src="../images/formula-1-branco.png" alt="F1IMG">
                     <p class="nomesCorredores item">Robin Frijns</p>
                 </div>
                 <div class="direita">
-                    <button class="BTNaposta item">5.95</button>
+                    <button class="BTNaposta item">5.87</button>
                     <span class="Star item" data-value="1">&#9733;</span>
                 </div>
             </div>
@@ -241,63 +262,182 @@
                     <p class="nomesCorredores item">Stoffel Vandoorne</p>
                 </div>
                 <div class="direita">
-                    <button class="BTNaposta item">6.08</button>
+                    <button class="BTNaposta item">6.09</button>
                     <span class="Star item" data-value="1">&#9733;</span>
                 </div>
             </div>
-        </div>
-        <div class="botao">
-            <button class="btn-apostas-ao-vivo">Mais opções de apostas ao vivo</button>
-        </div>
-    </main>
-    <footer class="footer">
-        <div class="footer-container">
-            <div class="footer-sections">
-                <div class="footer-column">
-                    <h4>Links Úteis</h4>
-                    <ul>
-                        <li><a href="#"></a>Central de ajuda</li>
-                        <li><a href="#"></a>Termos e condições</li>
-                        <li><a href="#"></a>Segurança</li>
-                        <li><a href="#"></a>Política de jogo responsável</li>
-                        <li><a href="#"></a>Política de privacidade</li>
-                    </ul>
-                </div>
-    
-                <div class="footer-column">
-                    <h4>Métodos de pagamento</h4>
-                    <ul>
-                        <li><a href="#"></a>Pix</li>
-                        <li><a href="#"></a>Boleto</li>
-                        <li><a href="#"></a>Itaú</li>
-                        <li><a href="#"></a>Banco do Brasil</li>
-                        <li><a href="#"></a>Caixa</li>
-                    </ul>
-                </div>
-    
-                <div class="footer-column">
-                    <h4>Social Media</h4>
-                    <ul>
-                        <li><a href="#"></a>Instagram</li>
-                        <li><a href="#"></a>X</li>
-                        <li><a href="#"></a>Facebook</li>
-                        <li><a href="#"></a>YouTube</li>
-                        <li><a href="#"></a>LinkedIn</li>
-                    </ul>
-                </div>
-    
-                <div class="footer-column">
-                    <h4>Selos de certificação</h4>
-                    <ul>
-                        <li><a href="#"></a>Malta Gaming Authority</li>
-                        <li><a href="#"></a>UK Gambling Commission</li>
-                        <li><a href="#"></a>eCOGRA</li>
-                        <li><a href="#"></a>iTech Labs</li>
-                        <li><a href="#"></a>GamCare</li>
-                    </ul>
-                </div>
+            <div class="mais-corredores">
+                <button class="btn-mais-corredores">Mais corredores</button>
             </div>
         </div>
-    </footer>
+        <div class="tituloApostas-2">
+            <img class="IMGtituloApostas" src="../images/arabia-saudita.png" alt="Imagem do lugar da corrida">
+            <p class="legenda" >Round 3 - 2024 Jeddah E-PRIX</p>  
+            </div><br>
+            <div class="btn-opcoes">
+                <button class="titulo-opcao">Escolha uma opção de aposta</button>
+                <div class="opcoes">
+                    <a href="#">Vencedor</a>
+                    <a href="#">Pódio</a>
+                    <a href="#">Melhor volta</a>
+                </div>
+            </div>
+        <div class="containerApostas">
+            <div class="corredores">
+                <div class="esquerda">
+                    <img class="f1IMG item" src="../images/formula-1-branco.png" alt="F1IMG">
+                    <p class="nomesCorredores item">Pascal Wehrlein</p>
+                </div>
+                <div class="direita">
+                    <button class="BTNaposta item">1.45</button>
+                    <span class="Star item" data-value="1">&#9733;</span>
+                </div>
+            </div>
+            <div class="corredores">
+                <div class="esquerda">
+                    <img class="f1IMG item" src="../images/formula-1-branco.png" alt="F1IMG">
+                    <p class="nomesCorredores item">Mitch Evans</p>
+                </div>
+                <div class="direita">
+                    <button class="BTNaposta item">1.65</button>
+                    <span class="Star item" data-value="1">&#9733;</span>
+                </div>
+            </div>
+            <div class="corredores">
+                <div class="esquerda">
+                    <img class="f1IMG item" src="../images/formula-1-branco.png" alt="F1IMG">
+                    <p class="nomesCorredores item">Nick Cassidy</p>
+                </div>
+                <div class="direita">
+                    <button class="BTNaposta item">1.71</button>
+                    <span class="Star item" data-value="1">&#9733;</span>
+                </div>
+            </div>
+            <div class="corredores">
+                <div class="esquerda">
+                    <img class="f1IMG item" src="../images/formula-1-branco.png" alt="F1IMG">
+                    <p class="nomesCorredores item">Olivier Rowland</p>
+                </div>
+                <div class="direita">
+                    <button class="BTNaposta item">1.98</button>
+                    <span class="Star item" data-value="1">&#9733;</span>
+                </div>
+            </div>
+            <div class="corredores">
+                <div class="esquerda">
+                    <img class="f1IMG item" src="../images/formula-1-branco.png" alt="F1IMG">
+                    <p class="nomesCorredores item">Jean Éric Vergne</p>
+                </div>
+                <div class="direita">
+                    <button class="BTNaposta item">2.06</button>
+                    <span class="Star item" data-value="1">&#9733;</span>
+                </div>
+            </div>
+            <div class="corredores">
+                <div class="esquerda">
+                    <img class="f1IMG item" src="../images/formula-1-branco.png" alt="F1IMG">
+                    <p class="nomesCorredores item">Antônio Félix da Costa</p>
+                </div>
+                <div class="direita">
+                    <button class="BTNaposta item">2.19</button>
+                    <span class="Star item" data-value="1">&#9733;</span>
+                </div>
+            </div>
+            <div class="corredores">
+                <div class="esquerda">
+                    <img class="f1IMG item" src="../images/formula-1-branco.png" alt="F1IMG">
+                    <p class="nomesCorredores item">Jake Dennis</p>
+                </div>
+                <div class="direita">
+                    <button class="BTNaposta item">2.22</button>
+                    <span class="Star item" data-value="1">&#9733;</span>
+                </div>
+            </div>
+            <div class="corredores">
+                <div class="esquerda">
+                    <img class="f1IMG item" src="../images/formula-1-branco.png" alt="F1IMG">
+                    <p class="nomesCorredores item">Maximilian Günther</p>
+                </div>
+                <div class="direita">
+                    <button class="BTNaposta item">4.09</button>
+                    <span class="Star item" data-value="1">&#9733;</span>
+                </div>
+            </div>
+            <div class="corredores">
+                <div class="esquerda">
+                    <img class="f1IMG item" src="../images/formula-1-branco.png" alt="F1IMG">
+                    <p class="nomesCorredores item">Robin Frijns</p>
+                </div>
+                <div class="direita">
+                    <button class="BTNaposta item">5.87</button>
+                    <span class="Star item" data-value="1">&#9733;</span>
+                </div>
+            </div>
+            <div class="corredores">
+                <div class="esquerda">
+                    <img class="f1IMG item" src="../images/formula-1-branco.png" alt="F1IMG">
+                    <p class="nomesCorredores item">Stoffel Vandoorne</p>
+                </div>
+                <div class="direita">
+                    <button class="BTNaposta item">6.09</button>
+                    <span class="Star item" data-value="1">&#9733;</span>
+                </div>
+            </div>
+            <div class="mais-corredores">
+                <button class="btn-mais-corredores">Mais corredores</button>
+            </div>
+        </div>
+        <div class="mais-corridas">
+            <button class="btn-mais-corridas">Ver mais corridas</button>
+        </div>
+        <footer class="footer">
+            <div class="footer-container">
+                <div class="footer-sections">
+                    <div class="footer-column">
+                        <h4>Links Úteis</h4>
+                        <ul>
+                            <li><a href="#"></a>Central de ajuda</li>
+                            <li><a href="#"></a>Termos e condições</li>
+                            <li><a href="#"></a>Segurança</li>
+                            <li><a href="#"></a>Política de jogo responsável</li>
+                            <li><a href="#"></a>Política de privacidade</li>
+                        </ul>
+                    </div>
+        
+                    <div class="footer-column">
+                        <h4>Métodos de pagamento</h4>
+                        <ul>
+                            <li><a href="#"></a>Pix</li>
+                            <li><a href="#"></a>Boleto</li>
+                            <li><a href="#"></a>Itaú</li>
+                            <li><a href="#"></a>Banco do Brasil</li>
+                            <li><a href="#"></a>Caixa</li>
+                        </ul>
+                    </div>
+        
+                    <div class="footer-column">
+                        <h4>Social Media</h4>
+                        <ul>
+                            <li><a href="#"></a>Instagram</li>
+                            <li><a href="#"></a>X</li>
+                            <li><a href="#"></a>Facebook</li>
+                            <li><a href="#"></a>YouTube</li>
+                            <li><a href="#"></a>LinkedIn</li>
+                        </ul>
+                    </div>
+        
+                    <div class="footer-column">
+                        <h4>Selos de certificação</h4>
+                        <ul>
+                            <li><a href="#"></a>Malta Gaming Authority</li>
+                            <li><a href="#"></a>UK Gambling Commission</li>
+                            <li><a href="#"></a>eCOGRA</li>
+                            <li><a href="#"></a>iTech Labs</li>
+                            <li><a href="#"></a>GamCare</li>
+                        </ul>
+                    </div>
+                </div>
+            </div>
+        </footer>
+    </main>
 </body>
-</html>

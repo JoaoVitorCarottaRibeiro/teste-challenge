@@ -187,17 +187,17 @@ animar();
 
 document.getElementById('BtnUser').addEventListener('click', function(){
     document.getElementById('LoginContainer').style.display = 'block';
-  });
+});
   
   document.getElementById('Btncancelar').addEventListener('click', function(){
     document.getElementById('LoginContainer').style.display = 'none';
-  });
+});
   
   document.getElementById('FormLogin').addEventListener('submit', function(event) {
     event.preventDefault();
     alert('Cadastro realizado!');
     document.getElementById('LoginContainer').style.display = 'none';
-  });
+});
 
 // Botão de saiba mais
 document.getElementById('btnSM').addEventListener('click', function(event) {
